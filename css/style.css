@@ -1,0 +1,109 @@
+*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	.main_container{
+		margin:20px auto;
+		width:80%;
+	}
+	.sub_container{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+	}
+	.box1{
+		Width:276px;
+		height:348px;
+		background-color:#2B2B2B;
+		color:white;
+		text-align:center;
+		line-height: 32px;
+		border-radius:10px;
+	}
+	.box1 h3{
+		margin-top:26px;
+	}
+	.box1 p{
+		font-size:22px;
+	}
+	.height p{
+		text-decoration: line-through;
+    font-size: 16px;
+    color: gray;
+	}
+	.buynow{
+		border: 1px solid;
+    background-color: transparent;
+    padding: 12px;
+    width: 147px;
+    color: white;
+    border-radius: 2px;
+    transition: 0.8s;
+    margin-top: 16px;
+	}
+	
+	
+	
+
+	.box2{
+		Width: 327px;
+		height: 169px;
+		background-color: #1B1B1B;
+		color:white;
+		display: flex;
+		justify-content:center;
+		flex-direction:column;
+		padding:14px;
+		gap:10px;
+	}
+	.box2 span{
+		color:red;
+		font-size:40px;
+	}
+	.box2 p{
+		color:gray;
+	}
+	
+	
+	
+.card_section{
+	width:280px;
+	background-color:white;
+	text-align:center;
+	padding:34px;
+	margin:0 auto;
+	box-shadow:5px 5px 14px black;
+}
+.icon{
+	color: red;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: -60px;
+    margin-left: 82px;
+	box-shadow:1px 1px 28px pink;
+}
+.icon span{
+	font-size:34px;
+}
+.paragraph{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:12px;
+	margin-top:18px;
+}
+.paragraph h2{
+	margin:0px;
+	font-size:32px;
+}
+.paragraph p{
+	letter-spacing:3px;
+}
+	
